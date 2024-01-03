@@ -1,0 +1,8 @@
+#https://stackoverflow.com/questions/17972347/error-command-gcc-failed-no-such-file-or-directory
+#https://askubuntu.com/questions/637014/gcc-error-trying-to-exec-cc1plus-execvp-no-such-file-or-directory
+
+#sudo apt update && sudo apt install ffmpeg
+
+numpy
+autochord
+streamlit
