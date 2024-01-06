@@ -14,13 +14,13 @@ RUN apt-get update && apt-get install -y \
     freetds-common \
     freetds-dev
 
+RUN git clone https://github.com/sushantburnawal/Raagz-identify .
+
 RUN apt-get update && apt-get install -y ffmpeg
 RUN apt-get install gcc
 RUN apt-get install g++
 RUN pip3 install streamlit-audiorecorder
 RUN pip3 install -r requirements.txt
-
-COPY . .
 
 EXPOSE 7860
 
